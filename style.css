@@ -23,6 +23,7 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 30px ;
+    font-family: "lobster";
 }
 
     .line{
@@ -63,18 +64,13 @@ nav {
     .landing {
         flex-direction: column;
       }
-
-
-
-
-
-h1 {
-    padding-top: 1%;
-    text-align: center;
-    font-size: 100%;
-    text-decoration-color: grey;
+.logo h4{
+    background: transparent;
+    padding-top: 1rem;
+    z-index: -1;
+    align-items: center;
+    min-height: 8vh;
 }
-
 /* End of Header */
 
 /* Beginning of Carousel CSS */
@@ -119,3 +115,22 @@ h1 {
 }
 #prevbutton img{
     width: 21px;
+}
+
+#nextbutton img {
+    width: 21px;
+}
+
+/*footer */
+
+footer {
+    background: lightgrey;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+
+}
+
+footer li a i {
+    color: linen;
+}

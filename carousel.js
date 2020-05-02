@@ -14,6 +14,7 @@ hamburger.addEventListener("click", () => {
  const carouselSlide = document.querySelector(".carousel-slide");
  const carouselImages = document.querySelectorAll(".carousel-slide img");
 
+
  //Buttons
 
  const prevButton = document.querySelector("#prevbutton");
