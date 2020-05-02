@@ -6,19 +6,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 
-<title> Srishti Application FAC</title>
-<link rel="stylesheet" href="style.css">
+<title> Srishti's Application FAC</title>
+<link rel="stylesheet" href="style.css" src="https://kit.fontawesome.com/20e2e75007.js">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 </style>
 </head>
 
 <body>
-<!--Header image, navigation and social links-->
+<!--Header image, navigation-->
 <!--This is the navigation section about, I was finding it difficult to understand how to make it work and style it so I decided to code it within CodePen instead-->
 <header> 
     <nav>
     <div class="hamburger">
+        <h1>Srishti's FAC Application 2020</h1>
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
@@ -30,15 +32,30 @@
         <li><a href="#Contact">Webpage</a></li>
     </ul>
     </nav>
-</header>
-<section class="landing">
-    
-    
+<div class="row">
+        <div class="column">
+          <img src="/Images/breathe.png" alt="breathe" style="width:100%" height="80%">
+        </div>
+        <div class="column">
+          <img src="Images/trees.jpg" alt="forest" style="width:100%" height="80%">
+        </div>
+        <div class="column">
+          <img src="Images/you are here.jpg" alt="neon-you" style="width:100%" height="80%">
+        </div>
+ </div>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-</section>
+ 
+<section id="about">
+    <div class="container">
+        <div class="row">
+           <h1>About me</h1>
+            <div class="block"></div>
+            <p> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+        </div>
+    </div>
+  </section>
     <!--Start of Carousel -->
-    <h2>Srishti Makes a Carousel</h2>
+
    <!--Carousel Container-->
 <div class="carousel-container">
     <div class="carousel-slide">
@@ -51,8 +68,15 @@
           <!--Buttons-->
     </div>
 </div>
+<div>
 <buttons id="prevbutton"> <img src="back.png" alt=""> </buttons>
 <buttons id="nextbutton"> <img src="next.png" alt=""> </buttons>
+<button id="Play-Pause"></button>
+</div>
+<div class="container-2">
+    <h2>Why I am applying</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+</div>
 
 <!--Footer-->
 
@@ -61,6 +85,7 @@
        <div class="section-heading">
            <h1>Any Comments? I would love your input</h1>
 </div>
+
 <form action="" >
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" placeholder="Please enter your name" required>
@@ -71,21 +96,23 @@
     <input type="submit" value="submit">
 </form>
 </div>
+
 </section>
 
-
- <footer>
+ <footer class="footer">
      <a href="mailto:srishti_n@hotmail.co.uk" class="email">srishti_n@hotmail.co.uk</a>
  <div class="social-media">
      <ul class="social-links">
        <li class="social-icons"> <a href="https://www.freecodecamp.org/srishti-fcc"> <i class="fab fa-free-code-camp"></i></a></li>
        <li class="social-icons"> <a href="https://github.com/Srishti-N" ><i class="fab fa-github"></i></a> </li>
-       <li class="social-icons"> <a href="https://www.codewars.com/users/sneogi"> </a> </li>
+       <li class="social-icons"> <a href="https://www.codewars.com/users/sneogi"><span class="iconify" data-icon="simple-icons:codewars" data-inline="false"></span> </a> </li>
        <li class="social-icons"> <a href="https://www.linkedin.com/feed/"> <i class="fab fa-linkedin"></i> </a> </li> 
      </ul>
  </div>
 </footer>
 
 <script src="carousel.js"></script>
+<script src="https://kit.fontawesome.com/20e2e75007.js" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>
