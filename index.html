@@ -11,6 +11,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 </style>
 </head>
 
@@ -59,33 +60,41 @@
    <!--Carousel Container-->
 <div class="carousel-container">
     <div class="carousel-slide">
-      <img class="carousel__photo" id="lastClone" src="Images/temple.jpg" alt="" >
-      <img class="carousel__photo" src="Images/Bar.jpg" alt="">
-      <img class="carousel__photo" src="Images/Beach.jpg" alt="">
-      <img class="carousel__photo" src="Images/Havana.jpg" alt="">
-      <img class="carousel__photo" src="Images/temple.jpg" alt="">
-      <img class="carousel__photo" id="firstClone" src="Images/Bar.jpg" alt="">
+      <img class="carousel__photo slide-showing" id="lastClone" src="Images/me-3.png" alt="" >
+      <img class="carousel__photo" src="/Images/me.png" alt="">
+      <img class="carousel__photo" src="/Images/mistake 1.jpg" alt="">
+      <img class="carousel__photo" src="Images/mistake 2.jpg" alt="">
+      <img class="carousel__photo" src="Images/mistake 3.jpg" alt="">
+      <img class="carousel__photo" src="Images/mistake 4.jpg" alt="">
+      <img class="carousel__photo" src="/Images/mistake 5.jpg" alt="">
+      <img class="carousel__photo" src="/Images/mistake 6.jpg" alt="">
+      <img class="carousel__photo" src="/Images/me-3.png" alt="">
+      <img class="carousel__photo" id="firstClone" src="Images/me.png" alt="">
           <!--Buttons-->
     </div>
 </div>
+
 <div>
-<buttons id="prevbutton"> <img src="back.png" alt=""> </buttons>
-<buttons id="nextbutton"> <img src="next.png" alt=""> </buttons>
-<button id="Play-Pause"></button>
+<buttons id="prevbutton"> <img src="/iconmonstr-angel-left-thin.svg" alt=""> </buttons>
+<buttons id="nextbutton"> <img src="/iconmonstr-angel-right-thin.svg" alt=""> </buttons>
+<button  class="control"  id="play-pause">Play</button>
 </div>
 <div class="container-2">
+    <div class="row">
     <h2>Why I am applying</h2>
+    <div class="block"></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+    </div>
 </div>
 
 <!--Footer-->
 
 <section class="contact-form" id="contact">
-    <div class="container">
        <div class="section-heading">
-           <h1>Any Comments? I would love your input</h1>
-</div>
-
+           <h3>Any Comments? I would love your input</h3>
+        </div>
+        
+<div class="container">
 <form action="" >
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" placeholder="Please enter your name" required>
@@ -96,11 +105,29 @@
     <input type="submit" value="submit">
 </form>
 </div>
-
 </section>
 
+<div class="footer-images">
+<div class="row_2">
+    <div class="column_3">
+      <img src="/Images/Lemon.png" alt="breathe" style="width:100%">
+    </div>
+    <div class="column_3">
+      <img src="/Images/Peace.png" alt="forest" style="width:100%" >
+    </div>
+    <div class="column_3">
+      <img src="/Images/beach.png" alt="neon-you" style="width:100%">
+    </div>
+    <div class="column_3">
+        <img src="/Images/together.png" alt="neon-you" style="width:100%">
+      </div>
+</div>
+</div>
+
+<section>
+<div class="container-footer">
  <footer class="footer">
-     <a href="mailto:srishti_n@hotmail.co.uk" class="email">srishti_n@hotmail.co.uk</a>
+     <a href="mailto:srishti_n@hotmail.co.uk" class="email"><bold>srishti_n@hotmail.co.uk</bold></a>
  <div class="social-media">
      <ul class="social-links">
        <li class="social-icons"> <a href="https://www.freecodecamp.org/srishti-fcc"> <i class="fab fa-free-code-camp"></i></a></li>
@@ -110,9 +137,12 @@
      </ul>
  </div>
 </footer>
+</div>
+</section>
 
 <script src="carousel.js"></script>
 <script src="https://kit.fontawesome.com/20e2e75007.js" crossorigin="anonymous"></script>
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>
+
