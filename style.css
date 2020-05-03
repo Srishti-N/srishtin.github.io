@@ -40,7 +40,7 @@ nav {
         height: 4px;
         background: black;
         margin: 5px; 
-        transition: 1.5s;
+        transition: 2s;
 }
 
 .line:hover{
@@ -153,6 +153,10 @@ nav{
     font-family: "Fredericka the Great";
     color: whitesmoke;
     }
+p {
+    color: whitesmoke;
+    font-size: 1.2em;
+}
 h2 {
     font-weight: bolder;
     text-align: center;
@@ -201,7 +205,7 @@ h3 {
 
 #prevbutton {
      position: absolute;
-     top: 150%;
+     top: 180%;
      margin-left: 15rem;
      transform: translateY(10%);
      border: 2px;
@@ -211,7 +215,7 @@ h3 {
 
 #nextbutton {
     position: absolute;
-    top: 150%;
+    top: 180%;
     margin-right: 12rem;
     right: 50px;
     border: 0;
@@ -226,7 +230,8 @@ h3 {
     align-items: center;
     height: 40px;
     width: 40px;
-    margin-left: 30rem;
+    margin-left: 42rem;
+    top: 225%;
 }
 #prevbutton img{
     width: 30px;
