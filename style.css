@@ -180,6 +180,19 @@ h3 {
 }
 /* Beginning of Carousel CSS */
 
+@media  (max-width: 500px) {
+    .carousel-container {
+        padding-top: 50px ;
+        height: 300px;
+        width: 70%;
+        margin: auto;
+        overflow: hidden; 
+        justify-content: center;
+    
+}
+}
+
+
 .carousel-container {
     padding-top: 50px ;
     height: 600px;
